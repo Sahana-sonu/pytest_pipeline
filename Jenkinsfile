@@ -14,7 +14,7 @@ pipeline {
         
         stage('Run') {
             steps {
-                bat 'python3 test_ops.py'
+                bat 'python test_ops.py'
             }
         }
     }
